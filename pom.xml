@@ -446,6 +446,7 @@
         <module>java/common</module>
         <module>java/gadgets</module>
         <module>java/social-api</module>
+        <module>../shindig-profiles</module>
         <module>java/server</module>
         <module>extras</module>
       </modules>
@@ -1427,6 +1428,12 @@
         <artifactId>shindig-common</artifactId>
         <version>${project.version}</version>
         <type>test-jar</type>
+      </dependency>
+
+      <dependency>
+        <groupId>edu.ucsf.ctsi</groupId>
+        <artifactId>shindig-profiles</artifactId>
+        <version>${project.version}</version>
       </dependency>
 
       <dependency> 
